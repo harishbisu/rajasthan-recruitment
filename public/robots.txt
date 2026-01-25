@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rajasthanrecruitment.in
+
+# Sitemaps
+Sitemap: https://rajasthanrecruitment.in/sitemap.xml
