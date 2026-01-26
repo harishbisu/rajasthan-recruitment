@@ -27,7 +27,7 @@ export const Navbar = () => {
         cursor={"pointer"}
         flexShrink={0}
       >
-        <Box minW={"40px"}>
+        <Box minW={"40px"} h={"40px"}>
           <Image
             src="/rr.png"
             alt="Rajasthan Recruitment"
