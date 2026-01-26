@@ -57,7 +57,7 @@ export const GoogleAd: React.FC<GoogleAdProps> = ({
       } catch (e) {
         console.error("AdSense initialization error:", e);
       }
-    }, 500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
