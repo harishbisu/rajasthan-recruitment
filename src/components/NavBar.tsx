@@ -33,7 +33,7 @@ export const Navbar = () => {
             alt="Rajasthan Recruitment"
             boxSize="40px"
             mr={{ base: 0, md: 2 }}
-            filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"
+            // filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"
           />
         </Box>
         <Text
@@ -44,7 +44,7 @@ export const Navbar = () => {
           userSelect="none"
           display={{ base: "none", sm: "block" }}
           letterSpacing="-0.2px"
-        // textTransform="uppercase"
+          // textTransform="uppercase"
         >
           Rajasthan
           <br />
@@ -62,8 +62,11 @@ export const Navbar = () => {
         variant="solid"
         bg="#5d93fe"
         color="white"
-        borderRadius="4px"
-        _hover={{ bg: "#4285f4", boxShadow: "0 1px 3px rgba(93,147,254,0.3)" }}
+        pr={{ base: 2, md: 4 }}
+        pl={{ base: 2, md: 4 }}
+        border={"4px solid #DEE9FF"}
+        borderRadius="20px"
+        _hover={{ bg: "#5d93fe", boxShadow: "0 1px 3px #DEE9FF" }}
         // px={6}
         h="40px"
         onClick={() =>
@@ -71,10 +74,10 @@ export const Navbar = () => {
         }
         flexShrink={0}
         size={{ base: "sm", md: "md" }}
-        fontWeight="500"
+        fontWeight="600"
       >
-        <Icon as={UserPlus2} boxSize={4} mr={2} />
-        Join
+        <Icon as={UserPlus2} strokeWidth={"3px"} boxSize={4} mr={0} />
+        <Text display={{ base: "none", md: "block" }}>Join</Text>
       </Button>
     </Box>
   );
