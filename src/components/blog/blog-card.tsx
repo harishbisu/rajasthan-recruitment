@@ -32,12 +32,13 @@ const BlogCard: React.FC<BlogCardProps> = ({
       borderRadius="xl"
       overflow="hidden"
       boxShadow="sm"
-      border="1px"
-      borderColor="gray.100"
+      // border="1px solid"
+      // borderColor="#5d93fe"
+      shadowColor={'#DEE9FF'}
       transition="all 0.2s"
       _hover={{
         boxShadow: "md",
-        transform: "translateY(-2px)",
+        // transform: "translateY(-2px)",
       }}
       display={"flex"}
       flexDirection={"column"}
