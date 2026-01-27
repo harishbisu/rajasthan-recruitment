@@ -74,6 +74,7 @@ export default async function BlogPostPage(props: PageProps) {
             height={"fit-content"}
             position={"sticky"}
             zIndex={2}
+            maxW={"200px"}
             w={"full"}
             top={"73.5px"}
             display={{ base: "none", xl: "flex" }}
@@ -130,6 +131,7 @@ export default async function BlogPostPage(props: PageProps) {
           <Box
             h={"fit-content"}
             w={"full"}
+            maxW={"200px"}
             position={"sticky"}
             zIndex={2}
             top={"73.5px"}
