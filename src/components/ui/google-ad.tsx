@@ -65,7 +65,7 @@ export const GoogleAd: React.FC<GoogleAdProps> = ({
   const config = formatConfig[type];
 
   return (
-    <Box w="full" my={4} textAlign="center" overflow="hidden">
+    <Box w="full" my={4} textAlign="center">
       {label && (
         <Text
           fontSize="xs"
@@ -81,9 +81,8 @@ export const GoogleAd: React.FC<GoogleAdProps> = ({
         bg="gray.50"
         borderRadius="md"
         minH={type === "sidebar" ? "600px" : "100px"}
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
+        w="full"
+        overflow="hidden"
       >
         <ins
           ref={adRef}
@@ -91,7 +90,7 @@ export const GoogleAd: React.FC<GoogleAdProps> = ({
           data-ad-client="ca-pub-3383607348636418"
           data-ad-slot={slot}
           {...config}
-          style={{ ...config.style, ...style }}
+          style={{ ...config.style, ...style, width: "100%" }}
         />
       </Box>
     </Box>

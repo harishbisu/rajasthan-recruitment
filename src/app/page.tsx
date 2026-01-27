@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Rajasthan job notifications",
     "Rajasthan exam results",
     "Admit card Rajasthan",
-    "Rajasathan Recruitment Portal",
+    "Rajasthan Recruitment Portal",
     "Sarkari Naukri",
     "Answer key Rajasthan",
     "Latest jobs Rajasthan",

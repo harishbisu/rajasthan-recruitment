@@ -54,7 +54,11 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <Script id="fast-load-trick" strategy="afterInteractive">
           {`
@@ -83,15 +87,13 @@ export default function RootLayout({
             logo: "https://rajasthanrecruitment.in/logo.png",
           })}
         </Script>
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-3383607348636418"
-        />
-        <script
+        <meta name="google-adsense-account" content="ca-pub-3383607348636418" />
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3383607348636418"
           crossOrigin="anonymous"
-        ></script>
+          strategy="afterInteractive"
+        />
       </head>
       <body>
         <ChakraUIProvider>

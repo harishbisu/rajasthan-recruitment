@@ -62,7 +62,7 @@ const BlogList: React.FC = async () => {
             zIndex={2}
             position={{ base: "relative", md: "sticky", lg: "sticky" }}
             top={{ base: "auto", md: "102px" }}
-            src="rr_adv.png"
+            src="/rr_adv.png"
           ></Image>
         </Box>
         <Box
