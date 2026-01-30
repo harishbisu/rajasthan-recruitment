@@ -54,6 +54,7 @@ export const metadata: Metadata = {
 
 import { SEO } from "@/components/ui/SEO";
 import { Pagination } from "@/components/ui/Pagination";
+import { Suspense } from "react";
 
 async function App({
   searchParams,
@@ -124,12 +125,14 @@ async function App({
           <SidebarAd />
         </Stack>
         <HStack w={"full"} display={"flex"} justifyContent={"center"}>
-          <Pagination
-            currentPage={page}
-            totalCount={total}
-            pageSize={pageSize}
-            path="/"
-          />
+          <Suspense fallback={<Box h="50px" />}>
+            <Pagination
+              currentPage={page}
+              totalCount={total}
+              pageSize={pageSize}
+              path="/"
+            />
+          </Suspense>
         </HStack>
       </Box>
       <BlogList />
