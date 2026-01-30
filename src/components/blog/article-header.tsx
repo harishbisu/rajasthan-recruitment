@@ -66,7 +66,7 @@ export function ArticleHeader({ post }: ArticleHeaderProps) {
                         height={200}
                         style={{
                             width: '100%',
-                            height: '150px',
+                            // height: '150px',
                             objectFit: 'cover'
                         }}
                         priority

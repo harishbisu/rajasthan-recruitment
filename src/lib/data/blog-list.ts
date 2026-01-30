@@ -2,6 +2,23 @@ import { BlogCardProps } from "../api/types";
 
 export const BLOG_LIST: BlogCardProps[] = [
   {
+    id: "22",
+    title:
+      "EMRS Recruitment 2025 – Apply Online for 7267 Teaching & Non-Teaching Vacancies",
+    image:
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/teaching_guide_rajasthan-1769744977314.png",
+    source: "Rajasthan Recruitment",
+    timeAgo: "8h",
+    likes: 37,
+    comments: 0,
+    shares: 15,
+    isLarge: true,
+    isSponsored: false,
+    sourceLogo: "https://www.rajasthanrecruitment.in/rr.png",
+    slug: "rajasthan-government-teaching-career",
+    createdAt: "2026-01-30T10:15:00Z",
+  },
+  {
     id: "21",
     title:
       "EMRS Recruitment 2025 – Apply Online for 7267 Teaching & Non-Teaching Vacancies",
@@ -12,7 +29,7 @@ export const BLOG_LIST: BlogCardProps[] = [
     likes: 9,
     comments: 0,
     shares: 15,
-    isLarge: true,
+    isLarge: false,
     isSponsored: false,
     sourceLogo:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/logo_emrs-1758510563845.jpg",
@@ -42,15 +59,14 @@ export const BLOG_LIST: BlogCardProps[] = [
       "Rajasthan CET: Complete Guide to Exam Pattern, Preparation & Success Strategy",
     image:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/rajasthan-1759725993084.cet-1759725993084.png",
-    source: "RSMSSB",
+    source: "Rajasthan Recruitment",
     timeAgo: "8h",
     likes: 1,
     comments: 0,
     shares: 1,
     isLarge: false,
     isSponsored: true,
-    sourceLogo:
-      "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+    sourceLogo: "https://www.rajasthanrecruitment.in/rr.png",
     slug: "rajasthan-cet",
     createdAt: "2025-10-06T06:30:00Z",
   },

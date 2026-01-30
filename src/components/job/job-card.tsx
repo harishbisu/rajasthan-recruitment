@@ -20,7 +20,7 @@ const JobCard: React.FC<{
       borderRadius="lg"
       p={6}
       bg="white"
-      transition="all 0.3s ease"
+      transition="all 0.2s ease"
       _hover={{
         boxShadow: "inset 0 -2px 0 0 #5d93fe",
       }}

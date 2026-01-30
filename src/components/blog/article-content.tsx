@@ -35,7 +35,7 @@ export interface ContentItem {
 }
 
 export interface Section {
-  id?: number;
+  id?: number | string;
   type?: string;
   title: string;
   content: ContentItem[];
@@ -427,7 +427,7 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
               </Heading>
               <VStack align="stretch" gap={4}>
                 {section.content?.map((contentItem) =>
-                  renderContent(contentItem)
+                  renderContent(contentItem),
                 )}
               </VStack>
             </Box>
