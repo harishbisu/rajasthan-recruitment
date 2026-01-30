@@ -76,13 +76,13 @@ export default async function BlogPostPage(props: PageProps) {
             zIndex={2}
             maxW={"200px"}
             w={"full"}
-            top={"73.5px"}
-            display={{ base: "none", xl: "flex" }}
+            top={"77px"}
+            display={{ base: "none", md: "flex" }}
           >
             <GoogleAd type="sidebar" slot="7891680227" />
           </Box>
           <Box maxW="6xl" mx="auto" px={{ base: 2, md: 8 }} py={0} mb={6}>
-            <Box bg={"white"} position={"sticky"} zIndex={2} top={"73.5px"}>
+            <Box bg={"white"} position={"sticky"} zIndex={2} top={"77px"}>
               <Breadcrumb
                 items={[
                   { label: "Home", href: "/" },
@@ -105,15 +105,15 @@ export default async function BlogPostPage(props: PageProps) {
 
               <Box as="aside" position="relative">
                 <Box
-                  position={{ base: "auto", md: "sticky" }}
+                  position={{ base: "auto", lg: "sticky" }}
                   top={{ base: "auto", md: "103px" }}
                 >
                   <Box
                     display={{
                       base: "none",
                       sm: "none",
-                      md: "none",
-                      lg: "block",
+                      md: "block",
+                      // lg: "block",
                     }}
                   >
                     <TableOfContents content={post.content} />
@@ -134,7 +134,7 @@ export default async function BlogPostPage(props: PageProps) {
             maxW={"200px"}
             position={"sticky"}
             zIndex={2}
-            top={"73.5px"}
+            top={"77px"}
             display={{ base: "none", xl: "flex" }}
           >
             <GoogleAd type="sidebar" slot="7891680227" />

@@ -4,7 +4,7 @@ import { GoogleAd } from "../ui/google-ad";
 
 const SidebarAd: React.FC = () => (
   <Box
-    minW="120px"
+    minW="200px"
     maxW="254px"
     display={{ base: "none", md: "block" }}
     position="relative"

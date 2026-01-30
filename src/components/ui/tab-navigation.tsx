@@ -1,6 +1,6 @@
 "use client";
 import { Tabs } from "@chakra-ui/react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import FullScreenLoader from "../FullScreenLoader";
 
@@ -22,6 +22,7 @@ const tabToRoute: Record<TabKey, string> = {
 
 export const TabsNavigation = () => {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState<TabKey>();
@@ -30,7 +31,7 @@ export const TabsNavigation = () => {
     const currentTab = routeToTab[pathname];
     setActiveTab(currentTab);
     setLoading(false);
-  }, [pathname]);
+  }, [pathname, searchParams]);
 
   const handleTabChange = (details: { value: string }) => {
     setLoading(true);

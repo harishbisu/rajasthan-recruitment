@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { Link } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import FullScreenLoader from './FullScreenLoader';
@@ -15,10 +15,11 @@ export default function LinkWithLoader({ href, children }: LinkWithLoaderProps) 
     const [loading, setLoading] = useState(false);
     const router = useRouter();
     const pathname = usePathname();
+    const searchParams = useSearchParams();
 
     useEffect(() => {
         setLoading(false);
-    }, [pathname]);
+    }, [pathname, searchParams]);
 
     const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
