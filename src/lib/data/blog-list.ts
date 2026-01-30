@@ -4,7 +4,7 @@ export const BLOG_LIST: BlogCardProps[] = [
   {
     id: "22",
     title:
-      "EMRS Recruitment 2025 – Apply Online for 7267 Teaching & Non-Teaching Vacancies",
+      "Government Teaching Careers in Rajasthan: Complete Guide from REET to Lecturer",
     image:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/teaching_guide_rajasthan-1769744977314.png",
     source: "Rajasthan Recruitment",
