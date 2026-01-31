@@ -5657,7 +5657,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     },
     publishedAt: "2026-01-30T10:15:00Z",
     updatedAt: "2026-01-30T10:15:00Z",
-    readTime: 16,
+    readTime: 7,
     views: 0,
     tags: [
       "Rajasthan Teacher Vacancy",
@@ -5686,6 +5686,349 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       "RPSC teacher exam",
       "RSSB teacher recruitment",
       "teaching jobs in Rajasthan",
+    ],
+  },
+  "indian-railways-recruitment-group-D-2026": {
+    id: "19",
+    title:
+      "Indian Railways Level‑1 (Group D) Recruitment 2026: Complete Notification Overview",
+    slug: "indian-railways-recruitment-group-D-2026",
+    excerpt:
+      "Indian Railways, through the Railway Recruitment Boards (RRBs), has released a major recruitment notification for Level‑1 posts (erstwhile Group D) under Centralised Employment Notice (CEN) 09/2025. This recruitment drive aims to fill approximately 22,000+ vacancies across various railway zones in India.",
+    description:
+      "This is a golden opportunity especially for 10वीं पास (matric pass) candidates who want to start their career in the Indian Railways — one of the most respected government sectors in India.",
+    content: {
+      sections: [
+        {
+          id: "ebQtEy4FTzzE4XfN_fx6q",
+          title: "Recruitment Authority & Notification Details",
+          type: "heading",
+          content: [
+            {
+              id: "G4Blp1G6qFXQb5Gr3R6VC",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Recruiting Body: Railway Recruitment Board (RRB)",
+                "Notification Name: RRB Level‑1 (Group D) Recruitment",
+                "CEN Number: 09/2025",
+                "Job Level: Level‑1 (7th Central Pay Commission)",
+                "Job Type: Central Government, Permanent",
+                "Mode of Application: Online",
+              ],
+            },
+          ],
+        },
+        {
+          id: "RM1Xu1os7aRPYVsAX1RTJ",
+          title: "Post Details (Level‑1)",
+          type: "heading",
+          content: [
+            {
+              id: "C_I9SCST69rpcgKBpinPw",
+              type: "paragraph",
+              text: "Candidates selected under this recruitment may be appointed to the following Level‑1 posts:",
+            },
+            {
+              id: "U-v9AsKCtp9bb29RHH4nd",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Track Maintainer Grade‑IV",
+                "Helper / Assistant (Electrical, Mechanical, Engineering, S&T)",
+                "Pointsman",
+                "Assistant (Various Technical & Non‑Technical Departments)",
+              ],
+            },
+            {
+              id: "xk1sK2_Wg3_49mSpmYgmO",
+              type: "paragraph",
+              text: "Final post allocation will depend on RRB rules, medical fitness, and merit position.",
+            },
+          ],
+        },
+        {
+          id: "LG02mwM6nzK3m3ysd8sjN",
+          title: "Vacancy Details",
+          type: "heading",
+          content: [
+            {
+              id: "5MGSa_xAkQJeXYDgD-hxa",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Total Vacancies: Approximately 22,000+",
+                "Distribution: Vacancies are distributed zone‑wise and category‑wise (UR, OBC, SC, ST, EWS)",
+              ],
+            },
+            {
+              id: "T_SmbwTPWd7hhkdpnS3Kj",
+              type: "note",
+              noteType: "info",
+              text: "Exact vacancy details are provided in the official notification issued by individual RRBs.",
+            },
+          ],
+        },
+        {
+          id: "TvJ-rOhwh8vvBhN6S8jnJ",
+          title: "Important Dates",
+          type: "heading",
+          content: [
+            {
+              id: "ORuPQyA02Lnlkfno2DAAd",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Online Application Start Date: January 31, 2026",
+                "Last Date to Apply Online: March 2, 2026 (by 11:59 PM IST)",
+                "CBT Examination Date: To be announced",
+              ],
+            },
+            {
+              id: "NycpOo8pSQnCJtcprGF1g",
+              type: "paragraph",
+              text: "Candidates are advised to regularly check the official RRB websites for updates.",
+            },
+          ],
+        },
+        {
+          id: "kiA2aQm5KRfL1YxST1L0r",
+          title: "Eligibility Criteria",
+          type: "heading",
+          content: [
+            {
+              id: "5GjFoNVv8RRxRRHZo_yvA",
+              type: "heading",
+              text: "Educational Qualification",
+              level: "h3",
+            },
+            {
+              id: "qHa1uMSJg_04VbIXuL1qQ",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Candidates must have passed Matriculation (10th Class) from a recognized board.",
+                "ITI / NAC holders may also be eligible for certain technical posts, as specified in the notification.",
+              ],
+            },
+            {
+              id: "9tbiyxNaan9OVKjXEBaCW",
+              type: "heading",
+              text: "Age Limit",
+              level: "h3",
+            },
+            {
+              id: "YNDxC4-q0aHAVBdQdu6QD",
+              type: "list",
+              listType: "unordered",
+              items: ["Minimum Age: 18 years", "Maximum Age: 33 years"],
+            },
+            {
+              id: "VQyysIDg0KRF3aDGl5wLk",
+              type: "paragraph",
+              text: "Age relaxation is applicable for reserved categories as per Government of India rules.",
+            },
+          ],
+        },
+        {
+          id: "lYcZMZA61G8tOjuhdaVx-",
+          title: "Salary Structure & Allowances",
+          type: "heading",
+          content: [
+            {
+              id: "8H_ECyn8V-15sVBFVp7TH",
+              type: "paragraph",
+              text: "As per 7th Central Pay Commission (CPC):",
+            },
+            {
+              id: "M0yxzQgADaOaKypDaJ_VD",
+              type: "list",
+              listType: "unordered",
+              items: ["Pay Level: Level‑1", "Basic Pay: ₹18,000 per month"],
+            },
+            {
+              id: "djKsAv6r7KSAXj1m9EIiS",
+              type: "paragraph",
+              text: "In addition to basic pay, employees are entitled to:",
+            },
+            {
+              id: "uRaa9ygc22RWRsQuVHIvC",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Dearness Allowance (DA)",
+                "House Rent Allowance (HRA) or Railway Quarters",
+                "Transport Allowance (TA)",
+                "Medical facilities",
+                "Pension and retirement benefits",
+              ],
+            },
+          ],
+        },
+        {
+          id: "SIwMPnTxVbJTz9vqabIJJ",
+          title: "Selection Process",
+          type: "heading",
+          content: [
+            {
+              id: "ykcDaAOHXFNTBWq_sC95X",
+              type: "paragraph",
+              text: "The selection process for RRB Level‑1 posts consists of the following stages:",
+            },
+            {
+              id: "KTWTt90pSsRt1lnR77bwb",
+              type: "list",
+              listType: "ordered",
+              items: [
+                "Computer Based Test (CBT)",
+                "Physical Efficiency Test (PET)",
+                "Document Verification (DV)",
+                "Medical Examination",
+              ],
+            },
+            {
+              id: "57UkXsw_pvkMVlbk15FMy",
+              type: "paragraph",
+              text: "Candidates must qualify each stage to be considered for final appointment.",
+            },
+          ],
+        },
+        {
+          id: "ngucP9ODRu8m9clCQyxi8",
+          title: "Examination Pattern (CBT – Overview)",
+          type: "heading",
+          content: [
+            {
+              id: "nMQnSjfHZVAVCATA7NcnZ",
+              type: "paragraph",
+              text: "The CBT generally includes questions from:",
+            },
+            {
+              id: "aV6OyU1yTPFnzN75YppQA",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Mathematics",
+                "General Intelligence & Reasoning",
+                "General Science",
+                "General Awareness & Current Affairs",
+              ],
+            },
+            {
+              id: "bN7l8X1zT0Z__ChsE3nrT",
+              type: "paragraph",
+              text: "The exam is conducted online, and the difficulty level is broadly Class 10 standard.",
+            },
+          ],
+        },
+        {
+          id: "XcoOwD6M0GurTVbMRGEd9",
+          title: "Application Process",
+          type: "heading",
+          content: [
+            {
+              id: "zRhp5r1hin53OsH_hhGoV",
+              type: "paragraph",
+              text: "Eligible candidates can apply online by following these steps:",
+            },
+            {
+              id: "2OCy3TwBi4o57K3Jw2xYr",
+              type: "list",
+              listType: "ordered",
+              items: [
+                "Visit the official RRB application portal\n",
+                "Complete new registration with basic details",
+                "Fill the online application form carefully",
+                "Upload required documents (photograph, signature, certificates)",
+                "Pay the application fee (if applicable)",
+                "Submit the form and download the confirmation page",
+              ],
+            },
+          ],
+        },
+        {
+          id: "3OzlWmFrWZ8s6mG9W6-2T",
+          title: "Frequently Asked Questions",
+          type: "heading",
+          content: [
+            {
+              id: "_QcQobO_O-mkWw_9cxoJL",
+              type: "faq",
+              items: [
+                {
+                  question:
+                    "What is the minimum qualification required for Railway Level-1 posts?",
+                  answer:
+                    "Candidates must have passed Class 10th (Matriculation) from a recognized board. Certain posts may also accept ITI or NAC qualifications as per notification rules.",
+                },
+                {
+                  question:
+                    "What is the salary for Indian Railways Level-1 employees?",
+                  answer:
+                    "Selected candidates receive a basic pay of ₹18,000 per month under the 7th Pay Commission, along with allowances such as DA, HRA/quarters, TA, medical benefits, and pension.",
+                },
+                {
+                  question:
+                    "Can female candidates apply for Railway Level-1 posts?",
+                  answer:
+                    "Yes, female candidates are fully eligible to apply and are provided appropriate standards and relaxations in the Physical Efficiency Test as per rules.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "WFNmLn9G3uXMCI4_-7nAf",
+          title: "Conclusion",
+          type: "heading",
+          content: [
+            {
+              id: "Clw52gMgf1qt7PkivoXLF",
+              type: "paragraph",
+              text: "The Indian Railways Level‑1 (Group D) Recruitment 2025‑26 presents a significant opportunity for candidates seeking a secure and respected government job after matriculation. With a transparent selection process, structured pay scale, and long‑term career benefits, this recruitment drive is ideal for serious aspirants.\n\nCandidates are strongly advised to apply on time and begin preparation early to improve their chances of success.",
+            },
+          ],
+        },
+      ],
+    },
+    featuredImage:
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/railways_group_d_level1-1769845362815.png",
+    author: {
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
+      bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
+    },
+    publishedAt: "2026-01-31T10:15:00Z",
+    updatedAt: "2026-01-31T10:15:00Z",
+    readTime: 6,
+    views: 0,
+    tags: [
+      "Railway Group D",
+      "RRB Level 1 Recruitment",
+      "Indian Railways Jobs",
+      "10th Pass Government Jobs",
+      "Railway Group D 2025",
+      "Central Government Jobs",
+      "Railway Vacancy",
+      "RRB Recruitment",
+    ],
+    category: {
+      name: "Teaching Jobs",
+      slug: "teaching-jobs",
+    },
+    seoTitle:
+      "Indian Railways Level 1 Recruitment 2025-26 | RRB Group D Notification, Eligibility & Salary",
+    seoDescription:
+      "Indian Railways Level-1 (Group D) Recruitment 2025-26 notification released for 22,000+ posts. Check eligibility, age limit, salary, selection process, exam pattern, and how to apply online.",
+    seoKeywords: [
+      "RRB Group D Recruitment 2025",
+      "Indian Railways Level 1 Jobs",
+      "Railway Group D Notification",
+      "RRB Level 1 Vacancy",
+      "10th Pass Railway Jobs",
+      "Railway Jobs 2025",
+      "RRB Group D Salary",
+      "Railway Recruitment Board Jobs",
     ],
   },
 };

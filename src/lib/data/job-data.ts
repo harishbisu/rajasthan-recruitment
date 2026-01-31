@@ -2,11 +2,24 @@ import { Job } from "../api/types";
 
 export const jobsData: Job[] = [
   {
+    id: 19,
+    title: "Indian Railways Group D Recruitment 2026 - Level 1 Posts",
+    slug: "indian-railways-recruitment-group-D-2026",
+    officialSiteUrl: "https://www.rrbapply.gov.in",
+    logo: "https://www.rrcjaipur.in/images/logo.png",
+    notificationDate: "January 30, 2026",
+    registrationStartDate: "January 31, 2026",
+    registrationEndDate: "March 02, 2026",
+    posts: 22000,
+    level: "Central Govt",
+    categories: ["railway-jobs"],
+  },
+  {
     id: 16,
     title:
       "EMRS – Apply for 7267 Teaching & Non-Teaching Vacancies (PGT, TGT, Principal, Staff)",
     slug: "emrs-recruitment-2025",
-    officialSiteUrl: "https://emrs.tribal.gov.in",
+    officialSiteUrl: "https://nests.tribal.gov.in",
     logo: "https://blackbuck.blob.core.windows.net/blackbucks-media/logo_emrs-1758510563845.jpg",
     notificationDate: "September 19, 2025",
     registrationEndDate: "October 23, 2025",
