@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Input, Box } from "@chakra-ui/react";
 import { Search } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -8,13 +8,24 @@ export const SearchBar = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [query, setQuery] = useState(searchParams.get("q") || "");
-  
-  const searchTerms = ["jobs", "admit cards", "result", "answer key", "career blogs"];
+
+  const searchTerms = [
+    "jobs",
+    "admit cards",
+    "result",
+    "answer key",
+    "career blogs",
+  ];
   const [currentTermIndex, setCurrentTermIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
+  const [hasCompleted, setHasCompleted] = useState(false);
+  const iterationCount = useRef(0);
+  const maxIterations = 3;
 
   useEffect(() => {
+    if (hasCompleted) return;
+
     const currentTerm = searchTerms[currentTermIndex];
     const typingSpeed = isDeleting ? 50 : 100;
     const pauseTime = 2000;
@@ -31,13 +42,24 @@ export const SearchBar = () => {
           setDisplayText(displayText.slice(0, -1));
         } else {
           setIsDeleting(false);
-          setCurrentTermIndex((prevIndex) => (prevIndex + 1) % searchTerms.length);
+          const nextIndex = (currentTermIndex + 1) % searchTerms.length;
+
+          if (nextIndex === 0) {
+            iterationCount.current += 1;
+            if (iterationCount.current >= maxIterations) {
+              setHasCompleted(true);
+              setDisplayText(searchTerms[0]);
+              return;
+            }
+          }
+
+          setCurrentTermIndex(nextIndex);
         }
       }
     }, typingSpeed);
 
     return () => clearTimeout(timeout);
-  }, [displayText, isDeleting, currentTermIndex, searchTerms]);
+  }, [displayText, isDeleting, currentTermIndex, hasCompleted]);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
