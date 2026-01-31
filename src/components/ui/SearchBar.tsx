@@ -17,8 +17,8 @@ export const SearchBar = () => {
     "career blogs",
   ];
   const [currentTermIndex, setCurrentTermIndex] = useState(0);
-  const [displayText, setDisplayText] = useState("");
-  const [isDeleting, setIsDeleting] = useState(false);
+  const [displayText, setDisplayText] = useState(searchTerms[0]);
+  const [isDeleting, setIsDeleting] = useState(true);
   const [hasCompleted, setHasCompleted] = useState(false);
   const iterationCount = useRef(0);
   const maxIterations = 3;
@@ -35,6 +35,10 @@ export const SearchBar = () => {
         if (displayText.length < currentTerm.length) {
           setDisplayText(currentTerm.slice(0, displayText.length + 1));
         } else {
+          if (iterationCount.current >= maxIterations) {
+            setHasCompleted(true);
+            return;
+          }
           setTimeout(() => setIsDeleting(true), pauseTime);
         }
       } else {
@@ -46,11 +50,6 @@ export const SearchBar = () => {
 
           if (nextIndex === 0) {
             iterationCount.current += 1;
-            if (iterationCount.current >= maxIterations) {
-              setHasCompleted(true);
-              setDisplayText(searchTerms[0]);
-              return;
-            }
           }
 
           setCurrentTermIndex(nextIndex);
