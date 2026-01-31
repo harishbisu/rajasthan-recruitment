@@ -39,7 +39,7 @@ export const jobsData: Job[] = [
     registrationEndDate: "October 14, 2025",
     posts: 368,
     level: "Section Controller( Level 6 )",
-    examDate: "To be announced",
+    examDate: "11th, 12th February 2026",
     categories: ["railway-jobs"],
   },
   {
