@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Input, Box } from "@chakra-ui/react";
 import { Search } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -8,6 +8,36 @@ export const SearchBar = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [query, setQuery] = useState(searchParams.get("q") || "");
+  
+  const searchTerms = ["jobs", "admit cards", "result", "answer key", "career blogs"];
+  const [currentTermIndex, setCurrentTermIndex] = useState(0);
+  const [displayText, setDisplayText] = useState("");
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const currentTerm = searchTerms[currentTermIndex];
+    const typingSpeed = isDeleting ? 50 : 100;
+    const pauseTime = 2000;
+
+    const timeout = setTimeout(() => {
+      if (!isDeleting) {
+        if (displayText.length < currentTerm.length) {
+          setDisplayText(currentTerm.slice(0, displayText.length + 1));
+        } else {
+          setTimeout(() => setIsDeleting(true), pauseTime);
+        }
+      } else {
+        if (displayText.length > 0) {
+          setDisplayText(displayText.slice(0, -1));
+        } else {
+          setIsDeleting(false);
+          setCurrentTermIndex((prevIndex) => (prevIndex + 1) % searchTerms.length);
+        }
+      }
+    }, typingSpeed);
+
+    return () => clearTimeout(timeout);
+  }, [displayText, isDeleting, currentTermIndex, searchTerms]);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -41,7 +71,7 @@ export const SearchBar = () => {
       </Box>
       <Input
         type="text"
-        placeholder="Search for jobs, admit cards..."
+        placeholder={`Search for ${displayText}`}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         borderRadius="full"
