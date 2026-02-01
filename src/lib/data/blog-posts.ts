@@ -4353,6 +4353,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Application Mode: Online only",
                 "Application Dates: 19 September 2025 to 23 October 2025",
                 "Tier-1 Exam Dates: 13th, 14th & 21st December 2025.",
+                "Tier-1 Result Released: 31st January 2026"
               ],
               listType: "unordered",
             },
@@ -4731,9 +4732,9 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               type: "faq",
               items: [
                 {
-                  question: "Exam dates for Tier-1?",
+                  question: "Exam dates for Tier-2?",
                   answer:
-                    "The EMRS Recruitment 2025 Tier-1 exam is scheduled to be held on 13th, 14th & 21st December 2025.",
+                    "The EMRS Recruitment 2025 Tier-2 exam is expected to be held on April 2026.",
                 },
                 {
                   question:
@@ -6013,8 +6014,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       "RRB Recruitment",
     ],
     category: {
-      name: "Teaching Jobs",
-      slug: "teaching-jobs",
+      name: "Railway Jobs",
+      slug: "railway-jobs",
     },
     seoTitle:
       "Indian Railways Level 1 Recruitment 2025-26 | RRB Group D Notification, Eligibility & Salary",
