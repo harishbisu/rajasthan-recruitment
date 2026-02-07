@@ -17,7 +17,7 @@ export const Navbar = () => {
       alignItems="center"
       justifyContent={"space-between"}
       p={4}
-      borderBottom={"1px solid #e0e0e0"}
+      borderBottom={"2px solid #5d93fe"}
       gap={4}
     >
       <Box

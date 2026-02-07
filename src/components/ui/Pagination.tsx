@@ -47,14 +47,20 @@ export const Pagination: React.FC<PaginationProps> = ({
           aria-label="Previous Page"
           onClick={() => onPageChange(currentPage - 1)}
           disabled={currentPage === 1 || isLoading}
-          bg={'#5d93fe'}
-          border={'5px solid #DEE9FF'}
+          bg={"#5d93fe"}
+          border={"5px solid #DEE9FF"}
           borderRadius="50%"
         >
-          <ChevronLeft color="white" size={18} />
+          <ChevronLeft strokeWidth={"3px"} color="white" size={18} />
         </IconButton>
 
-        <Box px={4} py={1} bg="#5d93fe" borderRadius="25px" border="5px solid #DEE9FF">
+        <Box
+          px={4}
+          py={1}
+          bg="#5d93fe"
+          borderRadius="25px"
+          border="5px solid #DEE9FF"
+        >
           <Text fontSize="sm" fontWeight="bold" color="white">
             Page {currentPage} of {totalPages}
           </Text>
@@ -64,11 +70,11 @@ export const Pagination: React.FC<PaginationProps> = ({
           aria-label="Next Page"
           onClick={() => onPageChange(currentPage + 1)}
           disabled={currentPage === totalPages || isLoading}
-          bg={'#5d93fe'}
-          border={'5px solid #DEE9FF'}
+          bg={"#5d93fe"}
+          border={"5px solid #DEE9FF"}
           borderRadius="50%"
         >
-          <ChevronRight color="white" size={18} />
+          <ChevronRight strokeWidth={"3px"} color="white" size={18} />
         </IconButton>
       </Flex>
     </>

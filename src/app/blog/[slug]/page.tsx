@@ -106,7 +106,7 @@ export default async function BlogPostPage(props: PageProps) {
               <Box as="aside" position="relative">
                 <Box
                   position={{ base: "auto", lg: "sticky" }}
-                  top={{ base: "auto", md: "103px" }}
+                  top={{ base: "auto", md: "106px" }}
                 >
                   <Box
                     display={{

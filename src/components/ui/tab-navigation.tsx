@@ -47,13 +47,14 @@ export const TabsNavigation = () => {
       value={activeTab}
       onValueChange={handleTabChange}
       variant="plain"
+      bg={"white"}
       position={"relative"}
     >
       {loading && <FullScreenLoader />}
       <Tabs.List
-        bg="gray.100"
-        rounded="lg"
-        p="1"
+        bg="#DEE9FF"
+        rounded="full"
+        p="2"
         w={"full"}
         gap={2.5}
         justifyContent={{ base: "space-between", md: "flex-start" }}
@@ -62,12 +63,13 @@ export const TabsNavigation = () => {
           value="jobs"
           px="4"
           py="2"
-          rounded="md"
+          rounded="full"
           fontWeight="medium"
           transition="all 0.2s"
+          color={"#5d93fe"}
           _hover={{
+            color: "#5d93fe",
             bg: "blue.50",
-            color: "blue.600",
           }}
           _selected={{
             color: "white",
@@ -80,13 +82,14 @@ export const TabsNavigation = () => {
           value="admit"
           px="4"
           py="2"
-          rounded="md"
+          rounded="full"
           fontWeight="medium"
           transition="all 0.2s"
           boxSizing={"border-box"}
+          color={"#5d93fe"}
           _hover={{
+            color: "#5d93fe",
             bg: "blue.50",
-            color: "blue.600",
           }}
           _selected={{
             color: "white",
@@ -99,13 +102,14 @@ export const TabsNavigation = () => {
           value="result"
           px="4"
           py="2"
-          rounded="md"
+          rounded="full"
           fontWeight="medium"
           transition="all 0.2s"
           boxSizing={"border-box"}
+          color={"#5d93fe"}
           _hover={{
+            color: "#5d93fe",
             bg: "blue.50",
-            color: "blue.600",
           }}
           _selected={{
             color: "white",
@@ -118,13 +122,14 @@ export const TabsNavigation = () => {
           value="ansKey"
           px="4"
           py="2"
-          rounded="md"
+          rounded="full"
           fontWeight="medium"
           transition="all 0.2s"
           boxSizing={"border-box"}
+          color={"#5d93fe"}
           _hover={{
+            color: "#5d93fe",
             bg: "blue.50",
-            color: "blue.600",
           }}
           _selected={{
             color: "white",

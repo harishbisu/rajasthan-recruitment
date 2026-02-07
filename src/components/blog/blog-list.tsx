@@ -73,18 +73,25 @@ const BlogList: React.FC = async () => {
           bottom={-12}
         >
           <Box
-            border={"2px solid #5d93fe"}
-            borderRadius={"lg"}
+            border={"5px solid #DEE9FF"}
+            borderRadius={"25px"}
+            bg={"#5d93fe"}
             _hover={{
-              borderColor: "#DEE9FF",
-              bg: "#DEE9FF",
               cursor: "pointer",
             }}
           >
             <LinkWithLoader href="/blog">
-              <Box p={2} display={"flex"} alignItems={"center"} gap={2}>
-                <Text color={"#5d93fe"}>Explore More Blogs</Text>
-                <ChevronDownIcon size={20} color="#5d93fe" />
+              <Box
+                p={1}
+                pl={3}
+                pr={3}
+                display={"flex"}
+                fontWeight={"bold"}
+                alignItems={"center"}
+                gap={2}
+              >
+                <Text color={"white"}>Explore More Blogs</Text>
+                <ChevronDownIcon strokeWidth={"3px"} size={20} color="#ffff" />
               </Box>
             </LinkWithLoader>
           </Box>
