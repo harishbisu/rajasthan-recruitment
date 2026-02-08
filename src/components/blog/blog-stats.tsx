@@ -207,7 +207,7 @@ export default function BlogStats({
               <Drawer.Header
                 borderBottom={"2px solid"}
                 borderBottomColor={"#5d93fe"}
-                mt={{ base: 0, lg: 1 }}
+                pb={6}
               >
                 <Drawer.Title>Add Comment</Drawer.Title>
                 <Drawer.CloseTrigger asChild>
@@ -301,7 +301,7 @@ export default function BlogStats({
               <Drawer.Header
                 borderBottom={"2px solid"}
                 borderBottomColor={"#5d93fe"}
-                mt={{ base: 0, lg: 1 }}
+                pb={6}
               >
                 <Drawer.Title>Share Blog</Drawer.Title>
                 <Drawer.CloseTrigger asChild>

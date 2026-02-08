@@ -78,6 +78,7 @@ export default async function BlogPostPage(props: PageProps) {
             w={"full"}
             top={"77px"}
             display={{ base: "none", md: "flex" }}
+            justifyContent={"center"}
           >
             <GoogleAd type="sidebar" slot="7891680227" />
           </Box>
@@ -133,6 +134,7 @@ export default async function BlogPostPage(props: PageProps) {
             w={"full"}
             maxW={"200px"}
             position={"sticky"}
+            justifyContent={"center"}
             zIndex={2}
             top={"77px"}
             display={{ base: "none", xl: "flex" }}

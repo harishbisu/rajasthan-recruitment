@@ -87,24 +87,26 @@ export const SearchBar = () => {
         display="flex"
         alignItems="center"
         pointerEvents="none"
+        bg="#DEE9FF"
       >
-        <Search size={18} color="#9aa0a6" />
+        <Search size={18} strokeWidth={"3px"} color="#5d93fe" />
       </Box>
       <Input
+        bg="#DEE9FF"
         type="text"
         placeholder={`Search for ${displayText}`}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         borderRadius="full"
-        bg="white"
-        border="1px solid #dfe1e5"
+        border="1px solid #DEE9FF"
+        color={"#5d93fe"}
         pl="40px"
         _hover={{
-          boxShadow: "0 1px 6px #DEE9FF",
+          boxShadow: "0 1px 25px #DEE9FF",
           borderColor: "#5d93fe",
         }}
         _focus={{
-          boxShadow: "0 1px 6px #DEE9FF",
+          boxShadow: "0 1px 25px #DEE9FF",
           borderColor: "#5d93fe",
           outline: "none",
         }}
