@@ -18,7 +18,6 @@ export default async function JobsPage({
   const page = Number((await searchParams).page) || 1;
   const pageSize = 10;
   const { jobs, total } = await getAllJobs({
-    category: "job",
     limit: pageSize,
     offset: (page - 1) * pageSize,
   });
