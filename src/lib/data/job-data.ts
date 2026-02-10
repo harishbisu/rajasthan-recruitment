@@ -2,6 +2,19 @@ import { Job } from "../api/types";
 
 export const jobsData: Job[] = [
   {
+    id: 20,
+    title: "Rajasthan Lab Assistant Recruitment 2026",
+    slug: "rajasthan-lab-assistant-2026",
+    officialSiteUrl: "https://sso.rajasthan.gov.in",
+    logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
+    notificationDate: "January 27, 2026",
+    registrationStartDate: "January 27, 2026",
+    registrationEndDate: "February 25, 2026",
+    posts: 804,
+    level: "State Govt",
+    categories: ["teaching-jobs"],
+  },
+  {
     id: 19,
     title: "Indian Railways Group D Recruitment 2026 - Level 1 Posts",
     slug: "indian-railways-recruitment-group-D-2026",

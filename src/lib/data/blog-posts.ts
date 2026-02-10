@@ -4353,7 +4353,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Application Mode: Online only",
                 "Application Dates: 19 September 2025 to 23 October 2025",
                 "Tier-1 Exam Dates: 13th, 14th & 21st December 2025.",
-                "Tier-1 Result Released: 31st January 2026"
+                "Tier-1 Result Released: 31st January 2026",
               ],
               listType: "unordered",
             },
@@ -6030,6 +6030,297 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       "Railway Jobs 2025",
       "RRB Group D Salary",
       "Railway Recruitment Board Jobs",
+    ],
+  },
+  "rajasthan-lab-assistant-2026": {
+    id: "20",
+    title: "Rajasthan Lab Assistant Recruitment 2026",
+    slug: "rajasthan-lab-assistant-2026",
+    excerpt:
+      "Are you a 12th-pass student dreaming of a government job in Rajasthan? This year (2026), the Rajasthan Staff Selection Board (RSSB/RSMSSB) has announced a superb opportunity for you to work as a Lab Assistant / Junior Lab Assistant in various state departments.",
+    description:
+      "Rajasthan Lab Assistant Recruitment 2026 is a golden opportunity for candidates looking for a stable Rajasthan government job after 12th science. The Rajasthan Staff Selection Board (RSSB) has released 804 Lab Assistant and Junior Lab Assistant vacancies for various state departments. Eligible candidates can apply online through the Rajasthan SSO portal.",
+    content: {
+      sections: [
+        {
+          id: "FiWK-nt-5uSnKtC7oZeGk",
+          title: "Overview - Rajasthan Lab Assistant Job 2026",
+          content: [
+            {
+              id: "5LZGeTWUyGHLanniwNMsd",
+              type: "paragraph",
+              text: "The RSSB (Rajasthan Staff Selection Board) has formally released the Lab Assistant & Junior Lab Assistant Recruitment Notification 2026 under Advt. No. 05/2026. A total of 804 vacancies are available across different departments, including Secondary Education, Agriculture, Forensic Science Laboratories, Public Health Engineering, and College Education.",
+            },
+            {
+              id: "6UvHZyhJz2C4_S6uIj63M",
+              type: "table",
+              headers: ["Feature", "Details"],
+              rows: [
+                ["Organization", "Rajasthan Staff Selection Board (RSSB)"],
+                ["Posts", "Lab Assistant & Junior Lab Assistant"],
+                ["Total Vacancies", "804"],
+                ["Job Location", "Rajasthan (Statewide)"],
+                ["Mode of Application", "Online via SSO Portal"],
+                ["Selection Process", "Written Exam → Document Verification"],
+                ["Exam Type", "OMR / Objective"],
+                ["Official Website", "rssb.rajasthan.gov.in"],
+              ],
+            },
+          ],
+        },
+        {
+          id: "wWbbo6eq9XikNyCWO_Maq",
+          title: "Important Dates",
+          content: [
+            {
+              id: "1HeaqT368sjqiK_1a1CNG",
+              type: "table",
+              headers: ["Event", "Date"],
+              rows: [
+                ["Event", "Date"],
+                ["Notification Released", "24–27 Jan 2026"],
+                ["Start of Online Application", "27 Jan 2026"],
+                ["Last Date to Apply", "25 Feb 2026"],
+                ["Exam Date (Tentative)", "09–10 May 2026"],
+                ["Admit Card Release", "To Be Announced"],
+              ],
+            },
+          ],
+        },
+        {
+          id: "c_sWaEdpJAdUBWzr-fhCN",
+          title: "Eligibility Criteria - Who Can Apply?",
+          content: [
+            {
+              id: "FUUAtV8Ud9P77qHlfbJ_o",
+              type: "paragraph",
+              text: "To apply for the Rajasthan Lab Assistant Recruitment 2026, candidates must have:",
+            },
+            {
+              id: "3yoRjwQ8OVQ6hv1pSTiw9",
+              type: "heading",
+              text: "Educational Qualification",
+              level: "h3",
+            },
+            {
+              id: "dM-93Bdo_mskMzQMciqBO",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "12th Pass (Senior Secondary) from a recognized board.",
+                "Must have studied Science subjects (Physics, Chemistry, Biology, Mathematics) OR Geography depending on the department.",
+                "Some posts (like Forensic Science) may also ask for computer knowledge/certificates. ",
+              ],
+            },
+            {
+              id: "tCAel4-7OA3TBWAYVKqKv",
+              type: "heading",
+              text: " Age Limit",
+              level: "h3",
+            },
+            {
+              id: "2UOfzjwsX-elvIs4vm_9_",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Minimum Age: 18 years",
+                "Maximum Age: 40 years (as of 01/01/2027)",
+                "Relaxation available for SC/ST/OBC/EWS candidates as per rules.",
+              ],
+            },
+          ],
+        },
+        {
+          id: "M7iF09XOXeEUztJrza8Ky",
+          title: "Salary & Benefits - What You’ll Earn",
+          content: [
+            {
+              id: "alDjcf5BRBCokalYEoZG8",
+              type: "paragraph",
+              text: "The salary for the Rajasthan Lab Assistant Job 2026 is competitive and comes with government benefits:",
+            },
+            {
+              id: "KO2MIWsdgyrF0ZvznD528",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Pay Level 8: ~ ₹28,000 – ₹32,000 (in-hand depending on allowances)",
+                "Some Level 5 posts may start slightly lower (for Junior roles).",
+                "Pension and government perks",
+                "Medical insurance",
+                "Regular promotions & career growth",
+              ],
+            },
+          ],
+        },
+        {
+          id: "e5JAUP1ehyBqspSyNA9ut",
+          title: "Exam Pattern & Syllabus (Basic Guide)",
+          content: [
+            {
+              id: "uYkmSteVMEQx89At-Lr4i",
+              type: "paragraph",
+              text: "While the board will release a detailed syllabus soon, here’s a breakdown of topics:\nObjective Multiple-Choice Questions (MCQs)\nPaper may include:",
+            },
+            {
+              id: "b54VPXnlm_yiyzj6czgHE",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "General Knowledge / Current Affairs",
+                "Science Fundamentals (Physics, Chemistry, Biology)",
+                "Geography of Rajasthan & India",
+                "General Hindi / English",
+              ],
+            },
+          ],
+        },
+        {
+          id: "UAvxXpSWM8C4aAyBlN-AL",
+          title: "Step-by-Step Application Guide",
+          content: [
+            {
+              id: "w_6_VDyfboIZGjVZBVu_i",
+              type: "paragraph",
+              text: "Follow this simple process to apply:",
+            },
+            {
+              id: "xmvrVsdgQtfmSLMWer6wb",
+              type: "process",
+              steps: [
+                {
+                  number: 1,
+                  title: "Visit the official site",
+                  description: "sso.rajasthan.gov.in",
+                },
+                {
+                  number: 2,
+                  title: "Login/Register",
+                  description: "Create your SSO ID if you don’t have one.",
+                },
+                {
+                  number: 3,
+                  title: "Fill Form",
+                  description: "Complete your biodata & qualification details.",
+                },
+                {
+                  number: 4,
+                  title: "Upload Documents",
+                  description: "Photo, signature, certificate PDFs.",
+                },
+                {
+                  number: 5,
+                  title: "Pay Fee",
+                  description: "₹600 (Gen) / ₹400 (OBC NCL/SC/ST/EWS).",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "X138QlHu6mbqWapJUAgNN",
+          title: "Frequently Asked Questions (FAQs)",
+          content: [
+            {
+              id: "VK4bavHQeRRe-5Utv6pac",
+              type: "faq",
+              items: [
+                {
+                  question:
+                    "What is the Rajasthan Lab Assistant Recruitment 2026?",
+                  answer:
+                    "Rajasthan Lab Assistant Recruitment 2026 is a state government hiring process conducted by Rajasthan Staff Selection Board (RSSB) to recruit eligible candidates for Lab Assistant and Junior Lab Assistant posts in various departments.",
+                },
+                {
+                  question:
+                    "How many vacancies are released for Rajasthan Lab Assistant 2026?",
+                  answer:
+                    "A total of 804 vacancies have been announced for Lab Assistant and Junior Lab Assistant posts across different departments in Rajasthan.",
+                },
+                {
+                  question:
+                    "Who can apply for Rajasthan Lab Assistant Job 2026?",
+                  answer:
+                    "Candidates who have passed 12th class with Science subjects (Physics, Chemistry, Biology/Maths) from a recognized board are eligible to apply, subject to age and other conditions.",
+                },
+                {
+                  question:
+                    "What is the exam pattern for Rajasthan Lab Assistant?",
+                  answer:
+                    "The exam will be objective type (MCQs) and generally includes questions from:\n\nGeneral Knowledge\n\nRajasthan Geography & Culture\n\nScience (Physics, Chemistry, Biology)\n\nGeneral Hindi / English\nNegative marking may apply as per official rules.",
+                },
+                {
+                  question:
+                    "Can candidates from other states apply for Rajasthan Lab Assistant?",
+                  answer:
+                    "Yes, candidates from other states can apply, but Rajasthan domicile candidates will get reservation benefits as per state rules.",
+                },
+                {
+                  question:
+                    "Is prior experience required for Rajasthan Lab Assistant posts?",
+                  answer:
+                    "No, freshers are eligible. No prior work experience is required for this recruitment.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "K2uZ-PhAQptKzGRH5eGUC",
+          title: "Final Words",
+          content: [
+            {
+              id: "Y6oYMrLuIa0aNHRiyPe0v",
+              type: "paragraph",
+              text: "The Rajasthan Lab Assistant Recruitment 2026 is a golden chance for 12th-pass aspirants aiming for stable government jobs in the state. With a good salary, benefits, and solid career growth, this post can be life-changing if you prepare right and apply on time. Start your preparation today and stay focused — best of luck!",
+            },
+          ],
+        },
+      ],
+    },
+    featuredImage:
+      "https://uploads.onecompiler.io/42hn49nvx/44d7mjkfd/rajasthan-lab-assistant-2026.png",
+    author: {
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
+      bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
+    },
+    publishedAt: "2026-02-10T10:15:00Z",
+    updatedAt: "2026-02-10T10:15:00Z",
+    readTime: 4,
+    views: 0,
+
+    tags: [
+      "Rajasthan Lab Assistant Recruitment 2026",
+      "RSSB Lab Assistant Job",
+      "Rajasthan Government Jobs",
+      "12th Pass Government Jobs",
+      "Lab Assistant Vacancy Rajasthan",
+      "RSMSSB Recruitment 2026",
+      "Science Jobs After 12th",
+      "Rajasthan Govt Vacancy",
+    ],
+
+    category: {
+      name: "Teaching Jobs",
+      slug: "teaching-jobs",
+    },
+
+    seoTitle:
+      "Rajasthan Lab Assistant Recruitment 2026 | 804 Vacancy, Eligibility, Exam Pattern & Salary",
+
+    seoDescription:
+      "Rajasthan Lab Assistant Recruitment 2026 notification released for 804 posts. Check eligibility, age limit, salary, exam pattern, syllabus, selection process & apply online details.",
+
+    seoKeywords: [
+      "Rajasthan Lab Assistant Recruitment 2026",
+      "RSSB Lab Assistant Vacancy",
+      "RSMSSB Lab Assistant Notification",
+      "Lab Assistant Jobs in Rajasthan",
+      "12th Pass Science Govt Jobs",
+      "Rajasthan Lab Assistant Salary",
+      "Rajasthan Lab Assistant Exam Pattern",
+      "Rajasthan Government Jobs 2026",
     ],
   },
 };

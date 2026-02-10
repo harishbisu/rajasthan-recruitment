@@ -11,7 +11,8 @@ const nextConfig: NextConfig = {
       'rpsc.rajasthan.gov.in',
       'rsmssb.rajasthan.gov.in',
       'th.bing.com',
-      'hcraj.nic.in'
+      'hcraj.nic.in',
+      'uploads.onecompiler.io'
     ],
   },
   compress: true,
