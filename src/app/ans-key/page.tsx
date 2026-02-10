@@ -1,14 +1,11 @@
 import React, { Suspense } from "react";
 import { Box, Heading, Stack } from "@chakra-ui/react";
-import JobList from "@/components/job/job-list";
 import SidebarAd from "@/components/job/sidebar-ad";
-import { getAllJobs } from "@/lib/api/job";
 import { TabsNavigation } from "@/components/ui/tab-navigation";
-
-// export const dynamic = 'force-static';
-
 import { SEO } from "@/components/ui/SEO";
 import { Pagination } from "@/components/ui/Pagination";
+import AnswerKeyList from "@/components/answer-key/answer-key-list";
+import { mockAnswerKeys } from "@/data/mock-data";
 
 export default async function JobsPage({
   searchParams,
@@ -17,11 +14,9 @@ export default async function JobsPage({
 }) {
   const page = Number((await searchParams).page) || 1;
   const pageSize = 10;
-  const { jobs, total } = await getAllJobs({
-    category: "ans-key",
-    limit: pageSize,
-    offset: (page - 1) * pageSize,
-  });
+  // Using mock data for now as requested
+  const jobs = mockAnswerKeys;
+  const total = mockAnswerKeys.length;
 
   return (
     <Box p={{ base: 2, md: 4 }}>
@@ -54,7 +49,7 @@ export default async function JobsPage({
           position="relative"
           direction={{ base: "column", md: "row" }}
         >
-          <JobList jobs={jobs} />
+          <AnswerKeyList items={jobs} />
           <SidebarAd />
         </Stack>
 
@@ -64,7 +59,7 @@ export default async function JobsPage({
             totalCount={total}
             pageSize={pageSize}
             path="/ans-key"
-            // onPageChange={() => { }}
+          // onPageChange={() => { }}
           />
         </Suspense>
       </Box>
