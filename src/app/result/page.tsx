@@ -2,10 +2,41 @@ import React, { Suspense } from "react";
 import { Box, Heading, Stack } from "@chakra-ui/react";
 import SidebarAd from "@/components/job/sidebar-ad";
 import { TabsNavigation } from "@/components/ui/tab-navigation";
-import { SEO } from "@/components/ui/SEO";
 import { Pagination } from "@/components/ui/Pagination";
 import ResultList from "@/components/result/result-list";
 import { mockResults } from "@/data/mock-data";
+import { Metadata } from "next";
+import { generateDynamicDescription, generateDynamicKeywords } from "@/lib/seo-utils";
+
+export const metadata: Metadata = {
+  title: `Exam Results ${new Date().getFullYear()} - Check Latest Merit Lists | Rajasthan Recruitment`,
+  description: generateDynamicDescription(mockResults, "Exam Results"),
+  keywords: generateDynamicKeywords(mockResults, ["Exam Result", "Rajasthan Result", "Merit List"]),
+  alternates: {
+    canonical: "https://rajasthanrecruitment.in/result",
+  },
+  openGraph: {
+    title: `Exam Results ${new Date().getFullYear()} - Check Latest Merit Lists | Rajasthan Recruitment`,
+    description: generateDynamicDescription(mockResults, "Exam Results"),
+    url: "https://rajasthanrecruitment.in/result",
+    siteName: "Rajasthan Recruitment",
+    images: [
+      {
+        url: "https://rajasthanrecruitment.in/rr-home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Rajasthan Recruitment Portal",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Exam Results ${new Date().getFullYear()} - Check Latest Merit Lists | Rajasthan Recruitment`,
+    description: generateDynamicDescription(mockResults, "Exam Results"),
+    images: ["https://rajasthanrecruitment.in/rr-home.jpg"],
+  },
+};
 
 export default async function JobsPage({
   searchParams,
@@ -20,11 +51,6 @@ export default async function JobsPage({
 
   return (
     <Box p={{ base: 2, md: 4 }}>
-      <SEO
-        title={`Exam Results ${new Date().getFullYear()} - Check Latest Merit Lists`}
-        description="Check official Rajasthan government job exam results and merit lists. Stay updated with the latest results and selection lists."
-        canonical="https://rajasthanrecruitment.in/result"
-      />
       <Box mx="auto" position="relative" pb={12}>
         <Box zIndex={98} position="sticky" top={"73px"} mb={6}>
           <TabsNavigation />

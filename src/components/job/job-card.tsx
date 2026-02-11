@@ -16,6 +16,8 @@ const JobCard: React.FC<{
 }> = ({ job }) => {
   return (
     <Box
+      id={job.slug}
+      className={job.slug ? "highlight-target" : ""}
       borderBottom="1px solid #5d93fe"
       borderRadius="lg"
       p={6}

@@ -4,6 +4,7 @@ import { Navbar } from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { Box } from "@chakra-ui/react";
 import Script from "next/script";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Rajasthan Recruitment",

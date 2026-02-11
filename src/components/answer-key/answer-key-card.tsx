@@ -19,6 +19,8 @@ const AnswerKeyCard: React.FC<{
 }> = ({ data }) => {
     return (
         <Box
+            id={data.slug}
+            className={data.slug ? "highlight-target" : ""}
             borderBottom="1px solid #5d93fe"
             borderRadius="lg"
             p={6}

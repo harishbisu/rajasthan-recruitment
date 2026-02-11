@@ -28,6 +28,8 @@ const BlogCard: React.FC<BlogCardProps> = ({
 }) => {
   return (
     <Box
+      id={slug}
+      className={slug ? "highlight-target" : ""}
       bg="white"
       borderRadius="xl"
       overflow="hidden"

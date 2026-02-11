@@ -2,10 +2,41 @@ import React, { Suspense } from "react";
 import { Box, Heading, Stack } from "@chakra-ui/react";
 import SidebarAd from "@/components/job/sidebar-ad";
 import { TabsNavigation } from "@/components/ui/tab-navigation";
-import { SEO } from "@/components/ui/SEO";
 import { Pagination } from "@/components/ui/Pagination";
 import AnswerKeyList from "@/components/answer-key/answer-key-list";
 import { mockAnswerKeys } from "@/data/mock-data";
+import { Metadata } from "next";
+import { generateDynamicDescription, generateDynamicKeywords } from "@/lib/seo-utils";
+
+export const metadata: Metadata = {
+  title: `Answer Key ${new Date().getFullYear()} - Check Exam Solutions & Keys | Rajasthan Recruitment`,
+  description: generateDynamicDescription(mockAnswerKeys, "Answer Keys"),
+  keywords: generateDynamicKeywords(mockAnswerKeys, ["Answer Key", "Rajasthan Answer Key", "Solution"]),
+  alternates: {
+    canonical: "https://rajasthanrecruitment.in/ans-key",
+  },
+  openGraph: {
+    title: `Answer Key ${new Date().getFullYear()} - Check Exam Solutions & Keys | Rajasthan Recruitment`,
+    description: generateDynamicDescription(mockAnswerKeys, "Answer Keys"),
+    url: "https://rajasthanrecruitment.in/ans-key",
+    siteName: "Rajasthan Recruitment",
+    images: [
+      {
+        url: "https://rajasthanrecruitment.in/rr-home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Rajasthan Recruitment Portal",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Answer Key ${new Date().getFullYear()} - Check Exam Solutions & Keys | Rajasthan Recruitment`,
+    description: generateDynamicDescription(mockAnswerKeys, "Answer Keys"),
+    images: ["https://rajasthanrecruitment.in/rr-home.jpg"],
+  },
+};
 
 export default async function JobsPage({
   searchParams,
@@ -20,11 +51,6 @@ export default async function JobsPage({
 
   return (
     <Box p={{ base: 2, md: 4 }}>
-      <SEO
-        title={`Answer Key ${new Date().getFullYear()} - Check Exam Solutions & Keys`}
-        description="Check official Rajasthan government job exam answer keys. Compare your answers and calculate scores with our updated key links."
-        canonical="https://rajasthanrecruitment.in/ans-key"
-      />
       <Box mx="auto" position="relative" pb={12}>
         <Box zIndex={98} position="sticky" top={"73px"} mb={6}>
           <TabsNavigation />

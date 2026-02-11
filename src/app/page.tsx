@@ -8,11 +8,13 @@ import { getAllJobs } from "@/lib/api/job";
 import { Box, Heading, HStack, Stack } from "@chakra-ui/react";
 import { GoogleAd } from "@/components/ui/google-ad";
 
+import { jobsData } from "@/lib/data/job-data";
+import { generateDynamicDescription, generateDynamicKeywords } from "@/lib/seo-utils";
+
 export const metadata: Metadata = {
   title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
-  description:
-    "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
-  keywords: [
+  description: generateDynamicDescription(jobsData, "Government Jobs"),
+  keywords: generateDynamicKeywords(jobsData, [
     "Rajasthan government jobs",
     "Sarkari Naukri Rajasthan",
     "Rajasthan job notifications",
@@ -23,14 +25,13 @@ export const metadata: Metadata = {
     "Answer key Rajasthan",
     "Latest jobs Rajasthan",
     `Rajasthan Recruitment ${new Date().getFullYear()}`,
-  ],
+  ]),
   alternates: {
     canonical: "https://rajasthanrecruitment.in/",
   },
   openGraph: {
     title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
-    description:
-      "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
+    description: generateDynamicDescription(jobsData, "Government Jobs"),
     url: "https://rajasthanrecruitment.in/",
     siteName: "Rajasthan Recruitment",
     images: [
@@ -46,8 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
-    description:
-      "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
+    description: generateDynamicDescription(jobsData, "Government Jobs"),
     images: ["https://rajasthanrecruitment.in/rr-home.jpg"],
   },
 };
