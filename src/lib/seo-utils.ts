@@ -1,6 +1,5 @@
 interface SEOItem {
     title: string;
-    [key: string]: any;
 }
 
 export function generateDynamicDescription(
