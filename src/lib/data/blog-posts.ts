@@ -6045,6 +6045,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
         {
           id: "FiWK-nt-5uSnKtC7oZeGk",
           title: "Overview - Rajasthan Lab Assistant Job 2026",
+          type: "heading",
           content: [
             {
               id: "5LZGeTWUyGHLanniwNMsd",
@@ -6071,6 +6072,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
         {
           id: "wWbbo6eq9XikNyCWO_Maq",
           title: "Important Dates",
+          type: "heading",
           content: [
             {
               id: "1HeaqT368sjqiK_1a1CNG",
@@ -6090,6 +6092,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
         {
           id: "c_sWaEdpJAdUBWzr-fhCN",
           title: "Eligibility Criteria - Who Can Apply?",
+          type: "heading",
           content: [
             {
               id: "FUUAtV8Ud9P77qHlfbJ_o",
@@ -6133,6 +6136,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
         {
           id: "M7iF09XOXeEUztJrza8Ky",
           title: "Salary & Benefits - What You’ll Earn",
+          type: "heading",
           content: [
             {
               id: "alDjcf5BRBCokalYEoZG8",
@@ -6156,6 +6160,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
         {
           id: "e5JAUP1ehyBqspSyNA9ut",
           title: "Exam Pattern & Syllabus (Basic Guide)",
+          type: "heading",
           content: [
             {
               id: "uYkmSteVMEQx89At-Lr4i",
@@ -6178,6 +6183,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
         {
           id: "UAvxXpSWM8C4aAyBlN-AL",
           title: "Step-by-Step Application Guide",
+          type: "heading",
           content: [
             {
               id: "w_6_VDyfboIZGjVZBVu_i",
@@ -6220,6 +6226,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
         {
           id: "X138QlHu6mbqWapJUAgNN",
           title: "Frequently Asked Questions (FAQs)",
+          type: "heading",
           content: [
             {
               id: "VK4bavHQeRRe-5Utv6pac",
@@ -6268,6 +6275,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
         {
           id: "K2uZ-PhAQptKzGRH5eGUC",
           title: "Final Words",
+          type: "heading",
           content: [
             {
               id: "Y6oYMrLuIa0aNHRiyPe0v",
@@ -6321,6 +6329,342 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       "Rajasthan Lab Assistant Salary",
       "Rajasthan Lab Assistant Exam Pattern",
       "Rajasthan Government Jobs 2026",
+    ],
+  },
+  "india-post-gds-recruitment-2026": {
+    id: "20",
+    title: "India Post GDS Recruitment 2026",
+    slug: "india-post-gds-recruitment-2026",
+    excerpt:
+      "Looking for a government job without a written exam? India Post GDS Recruitment 2026 offers thousands of vacancies for 10th pass candidates across India. Secure a central government opportunity based purely on merit.",
+
+    description:
+      "India Post GDS Recruitment 2026 is one of the biggest government job opportunities for 10th pass candidates across India. The Department of Posts has announced thousands of vacancies for Gramin Dak Sevak (GDS), Branch Postmaster (BPM), and Assistant Branch Postmaster (ABPM) posts. Selection is purely merit-based on 10th marks, with no written examination. Candidates seeking a stable central government career with attractive TRCA salary, job security, and promotion opportunities should not miss this recruitment. Applications are accepted online through the official India Post GDS portal.",
+    content: {
+      sections: [
+        {
+          id: "BboC1n1fa6G4jrW3M2sa-",
+          title: "Overview",
+          type: "heading",
+          content: [
+            {
+              id: "ZltrwPxYcIKuKwMH5oOn7",
+              type: "paragraph",
+              text: "The Indian Post Gramin Dak Sevak (GDS) Recruitment 2026 is a government job drive by the Department of Posts, Ministry of Communications, aimed at engaging personnel in the rural postal network of India. These posts are vital for postal operations in villages and semi-urban areas across the country.",
+            },
+            {
+              id: "gCg0s2MXSt8GuJftzVwHD",
+              type: "heading",
+              text: "Key Roles Covered",
+              level: "h3",
+            },
+            {
+              id: "ncYhBAvWSe4QsIb0ISVJm",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Gramin Dak Sevak (GDS) – Grassroots postal duties",
+                "Assistant Branch Postmaster (ABPM) – Assists BPM",
+                "Branch Postmaster (BPM) – Heads small post offices in rural locations",
+              ],
+            },
+          ],
+        },
+        {
+          id: "iQP3Wkw7hmd4U5IstaNn6",
+          title: "Important Dates",
+          type: "heading",
+          content: [
+            {
+              id: "HH_T1gZzV9uIGOa6_3ZWy",
+              type: "table",
+              headers: ["Activity", "Date"],
+              rows: [
+                ["Notification Released", "28–31 Jan 2026 (Official)"],
+                ["Online Registration Starts", "31 Jan 2026"],
+                ["Registration Ends", "14 Feb 2026"],
+                ["Application Submission", "2 Feb – 16 Feb 2026"],
+                ["Fee Payment Last Date", "16 Feb 2026"],
+                ["Correction Window", "18–19 Feb 2026"],
+                ["Merit List Release", "Expected Feb 2026"],
+              ],
+            },
+          ],
+        },
+        {
+          id: "3E2k8J0_1DSXblsa4izhd",
+          title: "Available Posts",
+          type: "heading",
+          content: [
+            {
+              id: "lYIvohvVKN-gLHCUKn3r4",
+              type: "paragraph",
+              text: " Approx. 28,740 Vacancies across India for 2026 — including GDS, BPM, and ABPM posts.\nState and circle-wise distribution is available on the official portal and notification but the highest openings are usually in big circles like Maharashtra and Uttar Pradesh.",
+            },
+          ],
+        },
+        {
+          id: "f2pB3G_ZL0_aIqvPOn48a",
+          title: "Eligibility Criteria",
+          type: "heading",
+          content: [
+            {
+              id: "caIzEs_8Ww7K1fqqfSb2C",
+              type: "heading",
+              text: "Educational Qualification",
+              level: "h3",
+            },
+            {
+              id: "I50jOpr_aGD6uJC4Ekhdt",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "10th pass from a recognized board with Mathematics & English.",
+                "Must have studied local language up to 10th standard.",
+                "Basic computer knowledge preferred.",
+              ],
+            },
+            {
+              id: "05YAWRA__Aa4EgYWOndvq",
+              type: "heading",
+              text: "Age Limit",
+              level: "h3",
+            },
+            {
+              id: "0z6qdVE5z8nyZBVJMg_X-",
+              type: "list",
+              listType: "unordered",
+              items: ["Minimum        18 years", "Maximum\t40 years"],
+            },
+            {
+              id: "B7XXvqnCzzbnPTR8TmjsB",
+              type: "paragraph",
+              text: "Relaxation as per government norms for SC/ST/OBC/PwD candidates.",
+            },
+          ],
+        },
+        {
+          id: "jXsy9Arjd5NONBoy-j8YU",
+          title: "Application Fee",
+          type: "heading",
+          content: [
+            {
+              id: "KJxEWDQYmUEVHn6z06t7y",
+              type: "table",
+              headers: ["Category", "Fee"],
+              rows: [
+                ["General & OBC", "₹100"],
+                ["SC/ST/PwD/Female", "Exempted (Free)"],
+              ],
+            },
+            {
+              id: "2lIndJNnaCSg3n_mQHdY1",
+              type: "paragraph",
+              text: "Pay the fee online using UPI, debit/credit card, or net banking.",
+            },
+          ],
+        },
+        {
+          id: "rnVf91gW7UOBPclvnxhrI",
+          title: "Selection Process (No Written Test!)",
+          type: "heading",
+          content: [
+            {
+              id: "4epYxqHRRw5a7iSxLcdrd",
+              type: "paragraph",
+              text: "This recruitment does not include an exam. Candidates are selected purely on merit based on 10th class marks.",
+            },
+            {
+              id: "ihw5DvTKQx2yYzTyupHns",
+              type: "note",
+              noteType: "info",
+              text: "If two candidates have the same 10th marks, age is the tie-breaker — the older candidate gets preference.",
+            },
+          ],
+        },
+        {
+          id: "o33hYXqJucJmT9xosdqYO",
+          title: "How To Apply — Step by Step",
+          type: "heading",
+          content: [
+            {
+              id: "4ZDjbvoYQVatDgXYSbBSf",
+              type: "list",
+              listType: "ordered",
+              items: [
+                "Visit the official portal: indiapostgdsonline.gov.in.",
+                "Complete the One-Time Registration with all personal and academic details.",
+                "Login with your registration number.",
+                "Select the Circle & Division you want to apply for.",
+                "Enter your 10th marks carefully — this determines merit.",
+                "Upload photo & signature as per guidelines.",
+                "Pay the application fee, if applicable.",
+                "Print your application confirmation for future reference.",
+              ],
+            },
+            {
+              id: "_C3pccHRDejnXS95bQt6L",
+              type: "note",
+              noteType: "info",
+              text: "Use the correction window to fix details if needed.",
+            },
+          ],
+        },
+        {
+          id: "u2OlbxhGT2gCDWwi4B27_",
+          title: "Salary & Benefits",
+          type: "heading",
+          content: [
+            {
+              id: "xpNtA2tE3aidjwMDCBlO9",
+              type: "paragraph",
+              text: "GDS posts are paid through TRCA (Time Related Continuity Allowance) — a form of monthly salary based on hours worked.\nTypical pay ranges (approx):",
+            },
+            {
+              id: "ZLkq4FmT2qnG-D6nB7aJv",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "Branch Postmaster (BPM): ₹12,000 – ₹29,550 per month",
+                "ABPM / Dak Sevak: ₹10,000 – ₹24,470 per month",
+              ],
+            },
+            {
+              id: "R3QECvB2gJ9UpgtsYPC24",
+              type: "paragraph",
+              text: "In addition to basic pay, employees receive allowances such as DA (Dearness Allowance), contributing to a reasonable in-hand salary.",
+            },
+          ],
+        },
+        {
+          id: "ZRgszPZjWCsTkCeMEpHXW",
+          title: "Document Checklist for Verification",
+          type: "heading",
+          content: [
+            {
+              id: "byOeumBZ2bJgqNcpXYvJb",
+              type: "paragraph",
+              text: "If you are shortlisted in the merit list, you may be asked to produce:",
+            },
+            {
+              id: "2VyMGcYbFFPINoOs3qQxb",
+              type: "list",
+              listType: "unordered",
+              items: [
+                "10th Marksheet & Certificate",
+                "DOB Proof",
+                "Category Certificate (if applicable)",
+                "PwD/Transgender Certificate (if applicable)",
+                "Any other relevant certificates",
+              ],
+            },
+          ],
+        },
+        {
+          id: "_mejADvWNbX5TlLSk5maj",
+          title: "Still have Any Doubts?",
+          type: "heading",
+          content: [
+            {
+              id: "kFGlWRkzWvxxtxFtNkJ3l",
+              type: "faq",
+              items: [
+                {
+                  question: "Is there any written exam for GDS 2026?",
+                  answer:
+                    "No. Selection is purely merit-based on 10th class marks. There is no written test or interview.",
+                },
+                {
+                  question: "How is the merit list prepared?",
+                  answer:
+                    "Merit is prepared based on:\n\n10th standard marks (converted into percentage up to 4 decimal places)\n\nNo weightage for higher qualification\n\nIn case of a tie → older candidate gets preference",
+                },
+                {
+                  question: "Is computer knowledge mandatory?",
+                  answer:
+                    "Basic computer knowledge is required. Candidates may need to submit a computer training certificate (minimum 60 days course), unless studied computer as a subject in school.",
+                },
+                {
+                  question: "Can I apply for multiple states/circles?",
+                  answer:
+                    "No. You can apply for only one circle in a single recruitment cycle.",
+                },
+                {
+                  question: "Is GDS a permanent government job?",
+                  answer:
+                    "GDS is a central government engagement post, but it is not a regular departmental post like Postman or MTS. However, there are promotion opportunities to departmental posts through exams.",
+                },
+                {
+                  question: "What if I enter wrong marks in the application?",
+                  answer:
+                    "Wrong information can lead to cancellation of candidature. Always double-check marks before submission. Use the correction window if available.",
+                },
+                {
+                  question: "Can I change my circle after submission?",
+                  answer:
+                    "No. Circle preference cannot be changed after final submission.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "A1R7w5GNxf9lzLlIUQHXE",
+          title: "Final Thoughts",
+          type: "heading",
+          content: [
+            {
+              id: "AkrOI2fqLymN8V56CRefA",
+              type: "paragraph",
+              text: "This recruitment drive is one of the best opportunities for 10th pass candidates seeking a government job without a written exam. The key to selection is getting your application right — especially your 10th marks and preferred choice of circle and division.",
+            },
+          ],
+        },
+      ],
+    },
+    featuredImage:
+      "https://uploads.onecompiler.io/42hn49nvx/44dc4m8hb/india-post-gds-recruitment-2026.jpg",
+    author: {
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
+      bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
+    },
+    publishedAt: "2026-02-12T06:30:00Z",
+    updatedAt: "2026-02-12T06:30:00Z",
+    readTime: 3,
+    views: 0,
+
+    tags: [
+      "India Post GDS Recruitment 2026",
+      "GDS Bharti 2026",
+      "India Post Vacancy 2026",
+      "Gramin Dak Sevak Recruitment",
+      "10th Pass Government Jobs",
+      "BPM ABPM Vacancy 2026",
+      "India Post Merit List 2026",
+      "Central Government Jobs 2026",
+    ],
+
+    category: {
+      name: "Postal Jobs",
+      slug: "postal-jobs",
+    },
+
+    seoTitle:
+      "India Post GDS Recruitment 2026 – Apply Online | Vacancy, Eligibility, Merit List & Salary Details",
+
+    seoDescription:
+      "India Post GDS Recruitment 2026 notification released for BPM, ABPM and Dak Sevak posts. Check eligibility, age limit, merit list process, TRCA salary, state-wise vacancy and apply online details.",
+
+    seoKeywords: [
+      "India Post GDS Recruitment 2026",
+      "GDS Vacancy 2026",
+      "India Post BPM ABPM Notification",
+      "10th Pass Govt Job Without Exam",
+      "India Post Merit List 2026",
+      "GDS Salary 2026",
+      "India Post Online Form 2026",
+      "Gramin Dak Sevak Bharti 2026",
     ],
   },
 };

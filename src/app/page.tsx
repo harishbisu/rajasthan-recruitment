@@ -94,6 +94,8 @@ async function App({
           "Sarkari Naukri",
           "Admit card",
           "Result",
+          "Rajasthan Recruitment Portal",
+          "Sarkari"
         ]}
         canonical="https://rajasthanrecruitment.in/"
       />
