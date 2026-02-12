@@ -2,7 +2,7 @@ import { Job } from "../api/types";
 
 export const jobsData: Job[] = [
   {
-    id: 20,
+    id: 21,
     title: "Indian Post Gramin Dak Sevak (GDS)",
     slug: "india-post-gds-recruitment-2026",
     officialSiteUrl: "https://indiapost.gov.in/gdsonlineengagement",
@@ -10,9 +10,20 @@ export const jobsData: Job[] = [
     notificationDate: "January 31, 2026",
     registrationStartDate: "January 31, 2026",
     registrationEndDate: "February 16, 2026",
-    posts: 804,
+    posts: 28636,
     level: "Postal  Jobs",
     categories: ["postal-jobs"],
+  },
+  {
+    id: 20,
+    title: "Rajasthan Lab Assistant Recruitment 2026",
+    slug: "rajasthan-lab-assistant-2026",
+    officialSiteUrl: "https://sso.rajasthan.gov.in",
+    logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
+    notificationDate: "January 27, 2026",
+    registrationStartDate: "January 27, 2026",
+    registrationEndDate: "February 25, 2026",
+    posts: 804,
   },
   {
     id: 19,
