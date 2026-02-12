@@ -9,7 +9,10 @@ import { Box, Heading, HStack, Stack } from "@chakra-ui/react";
 import { GoogleAd } from "@/components/ui/google-ad";
 
 import { jobsData } from "@/lib/data/job-data";
-import { generateDynamicDescription, generateDynamicKeywords } from "@/lib/seo-utils";
+import {
+  generateDynamicDescription,
+  generateDynamicKeywords,
+} from "@/lib/seo-utils";
 
 export const metadata: Metadata = {
   title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
@@ -36,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "Rajasthan Recruitment",
     images: [
       {
-        url: "https://rajasthanrecruitment.in/rr-home.jpg",
+        url: "https://rajasthanrecruitment.in/rr-home.avif",
         width: 1200,
         height: 630,
         alt: "Rajasthan Recruitment Portal Home Banner",
@@ -48,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
     description: generateDynamicDescription(jobsData, "Government Jobs"),
-    images: ["https://rajasthanrecruitment.in/rr-home.jpg"],
+    images: ["https://rajasthanrecruitment.in/rr-home.avif"],
   },
 };
 
@@ -95,7 +98,7 @@ async function App({
           "Admit card",
           "Result",
           "Rajasthan Recruitment Portal",
-          "Sarkari"
+          "Sarkari",
         ]}
         canonical="https://rajasthanrecruitment.in/"
       />

@@ -11,7 +11,7 @@ export const jobsData: Job[] = [
     registrationStartDate: "January 31, 2026",
     registrationEndDate: "February 16, 2026",
     posts: 28636,
-    level: "Postal  Jobs",
+    level: "Postal Jobs",
     categories: ["postal-jobs"],
   },
   {
@@ -24,6 +24,8 @@ export const jobsData: Job[] = [
     registrationStartDate: "January 27, 2026",
     registrationEndDate: "February 25, 2026",
     posts: 804,
+    level: "State",
+    categories: ["teaching-jobs"],
   },
   {
     id: 19,
@@ -47,9 +49,9 @@ export const jobsData: Job[] = [
     logo: "https://blackbuck.blob.core.windows.net/blackbucks-media/logo_emrs-1758510563845.jpg",
     notificationDate: "September 19, 2025",
     registrationEndDate: "October 23, 2025",
+    examDate: "13th, 14th & 21st December 2025",
     posts: 7267,
     level: "Central Govt",
-    examDate: "13th, 14th & 21st December 2025",
     categories: ["teaching-jobs"],
   },
   {

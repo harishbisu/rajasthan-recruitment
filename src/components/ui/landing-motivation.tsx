@@ -57,9 +57,10 @@ export const LandingMotivation = () => {
           flexShrink={0}
         >
           <Image
-            src="/rr-home.jpg"
+            src="/rr-home.avif"
             alt="Study Motivation"
             fill
+            sizes="(max-width: 768px) 150px, (max-width: 1024px) 200px, 250px"
             style={{
               objectFit: "contain",
             }}

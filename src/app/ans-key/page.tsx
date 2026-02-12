@@ -6,12 +6,19 @@ import { Pagination } from "@/components/ui/Pagination";
 import AnswerKeyList from "@/components/answer-key/answer-key-list";
 import { mockAnswerKeys } from "@/data/mock-data";
 import { Metadata } from "next";
-import { generateDynamicDescription, generateDynamicKeywords } from "@/lib/seo-utils";
+import {
+  generateDynamicDescription,
+  generateDynamicKeywords,
+} from "@/lib/seo-utils";
 
 export const metadata: Metadata = {
   title: `Answer Key ${new Date().getFullYear()} - Check Exam Solutions & Keys | Rajasthan Recruitment`,
   description: generateDynamicDescription(mockAnswerKeys, "Answer Keys"),
-  keywords: generateDynamicKeywords(mockAnswerKeys, ["Answer Key", "Rajasthan Answer Key", "Solution"]),
+  keywords: generateDynamicKeywords(mockAnswerKeys, [
+    "Answer Key",
+    "Rajasthan Answer Key",
+    "Solution",
+  ]),
   alternates: {
     canonical: "https://rajasthanrecruitment.in/ans-key",
   },
@@ -22,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Rajasthan Recruitment",
     images: [
       {
-        url: "https://rajasthanrecruitment.in/rr-home.jpg",
+        url: "https://rajasthanrecruitment.in/rr-home.avif",
         width: 1200,
         height: 630,
         alt: "Rajasthan Recruitment Portal",
@@ -34,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `Answer Key ${new Date().getFullYear()} - Check Exam Solutions & Keys | Rajasthan Recruitment`,
     description: generateDynamicDescription(mockAnswerKeys, "Answer Keys"),
-    images: ["https://rajasthanrecruitment.in/rr-home.jpg"],
+    images: ["https://rajasthanrecruitment.in/rr-home.avif"],
   },
 };
 
@@ -85,7 +92,7 @@ export default async function JobsPage({
             totalCount={total}
             pageSize={pageSize}
             path="/ans-key"
-          // onPageChange={() => { }}
+            // onPageChange={() => { }}
           />
         </Suspense>
       </Box>

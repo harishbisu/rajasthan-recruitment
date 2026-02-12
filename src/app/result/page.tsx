@@ -6,12 +6,19 @@ import { Pagination } from "@/components/ui/Pagination";
 import ResultList from "@/components/result/result-list";
 import { mockResults } from "@/data/mock-data";
 import { Metadata } from "next";
-import { generateDynamicDescription, generateDynamicKeywords } from "@/lib/seo-utils";
+import {
+  generateDynamicDescription,
+  generateDynamicKeywords,
+} from "@/lib/seo-utils";
 
 export const metadata: Metadata = {
   title: `Exam Results ${new Date().getFullYear()} - Check Latest Merit Lists | Rajasthan Recruitment`,
   description: generateDynamicDescription(mockResults, "Exam Results"),
-  keywords: generateDynamicKeywords(mockResults, ["Exam Result", "Rajasthan Result", "Merit List"]),
+  keywords: generateDynamicKeywords(mockResults, [
+    "Exam Result",
+    "Rajasthan Result",
+    "Merit List",
+  ]),
   alternates: {
     canonical: "https://rajasthanrecruitment.in/result",
   },
@@ -22,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Rajasthan Recruitment",
     images: [
       {
-        url: "https://rajasthanrecruitment.in/rr-home.jpg",
+        url: "https://rajasthanrecruitment.in/rr-home.avif",
         width: 1200,
         height: 630,
         alt: "Rajasthan Recruitment Portal",
@@ -34,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `Exam Results ${new Date().getFullYear()} - Check Latest Merit Lists | Rajasthan Recruitment`,
     description: generateDynamicDescription(mockResults, "Exam Results"),
-    images: ["https://rajasthanrecruitment.in/rr-home.jpg"],
+    images: ["https://rajasthanrecruitment.in/rr-home.avif"],
   },
 };
 

@@ -6,12 +6,19 @@ import { Pagination } from "@/components/ui/Pagination";
 import AdmitCardList from "@/components/admit-card/admit-card-list";
 import { mockAdmitCards } from "@/data/mock-data";
 import { Metadata } from "next";
-import { generateDynamicDescription, generateDynamicKeywords } from "@/lib/seo-utils";
+import {
+  generateDynamicDescription,
+  generateDynamicKeywords,
+} from "@/lib/seo-utils";
 
 export const metadata: Metadata = {
   title: `Admit Card ${new Date().getFullYear()} - Download Latest Exam Hall Tickets | Rajasthan Recruitment`,
   description: generateDynamicDescription(mockAdmitCards, "Admit Cards"),
-  keywords: generateDynamicKeywords(mockAdmitCards, ["Admit Card", "Rajasthan Admit Card", "Hall Ticket"]),
+  keywords: generateDynamicKeywords(mockAdmitCards, [
+    "Admit Card",
+    "Rajasthan Admit Card",
+    "Hall Ticket",
+  ]),
   alternates: {
     canonical: "https://rajasthanrecruitment.in/admit-card",
   },
@@ -22,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Rajasthan Recruitment",
     images: [
       {
-        url: "https://rajasthanrecruitment.in/rr-home.jpg",
+        url: "https://rajasthanrecruitment.in/rr-home.avif",
         width: 1200,
         height: 630,
         alt: "Rajasthan Recruitment Portal",
@@ -34,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `Admit Card ${new Date().getFullYear()} - Download Latest Exam Hall Tickets | Rajasthan Recruitment`,
     description: generateDynamicDescription(mockAdmitCards, "Admit Cards"),
-    images: ["https://rajasthanrecruitment.in/rr-home.jpg"],
+    images: ["https://rajasthanrecruitment.in/rr-home.avif"],
   },
 };
 
